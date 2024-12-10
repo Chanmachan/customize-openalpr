@@ -12,8 +12,8 @@ nlist = "#{ndir}/neg.txt"
 vec = "#{pdir}/pos.vec"
 rdir = "#{dir}/res"
 
-libdir = "#{dir}/../../opencv-3.4.8/build/lib"
-bindir = "#{dir}/../../opencv-3.4.8/build/bin"
+libdir = "/app/opencv/build/lib"
+bindir = "/app/opencv/build/bin"
 
 score = 0.95
 nbneg = 220
