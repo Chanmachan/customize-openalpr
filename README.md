@@ -4,7 +4,7 @@ docker build . -t openalpr-env
 docker run -it -v $(pwd):/app -w /app openalpr-env
 ```
 
-### alpr_jp
+## alpr_jp
 ```shell
 ruby collect_images.rb
 ruby train.rb
