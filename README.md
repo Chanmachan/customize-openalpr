@@ -10,6 +10,9 @@ ruby collect_images.rb
 ruby train.rb
 ruby update_model.rb
 ```
+run_train.shが作成されるので実行する
+
+※今回は全て実行した状態で追加してある
 
 ## build
 ```shell
