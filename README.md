@@ -19,6 +19,8 @@ run_train.shが作成されるので実行する
 cd openalpr/src; mkdir build; cd build
 apt-get install liblog4cplus-dev # 必要なライブラリは追加でインストール
 cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_INSTALL_SYSCONFDIR:PATH=/etc -DTesseract_INCLUDE_CCMAIN_DIR=/usr/include/tesseract -DTesseract_INCLUDE_CCUTIL_DIR=/usr/include/tesseract ..
+make
+make install
 ```
 
 ## execute
