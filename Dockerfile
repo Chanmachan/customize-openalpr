@@ -18,6 +18,7 @@ RUN apt-get update && apt-get install -y \
     automake \
     pkg-config \
     curl \
+    liblog4cplus-dev \
     && apt-get clean
 
 CMD ["bash"]
