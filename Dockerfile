@@ -19,6 +19,7 @@ RUN apt-get update && apt-get install -y \
     pkg-config \
     curl \
     liblog4cplus-dev \
+    gdb \
     && apt-get clean
 
 CMD ["bash"]
